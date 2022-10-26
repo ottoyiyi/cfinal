@@ -18,6 +18,10 @@ namespace cfinal
         public Form1()
         {
             InitializeComponent();
+
+            Form2 form2;
+            form2 = new Form2();
+            form2.ShowDialog();
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -98,6 +102,11 @@ namespace cfinal
 
         private void label3_Click(object sender, EventArgs e)
         {
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
